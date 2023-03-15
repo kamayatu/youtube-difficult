@@ -3,7 +3,7 @@ import Youtube from 'react-youtube'
 const VideoPlay = ({id}) => {
   return (
     <div>
-      <Youtube video={id} />
+      <Youtube videoId={id} />
     </div>
   )
 }
